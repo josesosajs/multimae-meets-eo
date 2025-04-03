@@ -1,2 +1,2 @@
 # multimae-meets-eo
-MultiMAE meets Earth Observation: Pre-training Multi-modal multi-task Masked Autoencoders for Earth Observation tasks
+:_earth_americas: MultiMAE meets Earth Observation: Pre-training Multi-modal multi-task Masked Autoencoders for Earth Observation tasks
