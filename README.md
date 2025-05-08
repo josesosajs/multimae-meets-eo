@@ -1,8 +1,8 @@
-# 🌎🛰️ MultiMAE meets Earth Observation: Pre-training Multi-modal multi-task Masked Autoencoders for Earth Observation tasks
+# 🌎🛰️ MultiMAE meets Earth Observation: Pre-training Multi-modal multi-task Masked Autoencoders for Earth Observation Tasks
 
 
 ## Updates
-- **May x, 2025:** Our paper has been acepted to [ICIP 2025](https://2025.ieeeicip.org/).
+- **May x, 2025:** Our paper has been acepted for presentation at [ICIP 2025](https://2025.ieeeicip.org/).
 - **May x, 2025:** MultiMAE meets Earth Observation paper is released [[arXiv]]()  [[PDF]]().
 
 ## Overview
@@ -24,7 +24,7 @@ Code coming soon. Stay tuned ...
 
 
 ## Acknowledgements
-The codebase is inspired by [MultiMAE](https://github.com/EPFL-VILAB/MultiMAE). Our work uses [MMEarth](https://github.com/vishalned/MMEarth-data) dataset. We thank authors for making their amazing work accesible to the community. 
+Our work is inspired by [MultiMAE](https://github.com/EPFL-VILAB/MultiMAE) and it uses [MMEarth](https://github.com/vishalned/MMEarth-data) dataset. We thank authors for making their amazing work accesible to the community. 
 
 ## Citation
 ```
