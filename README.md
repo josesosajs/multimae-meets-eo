@@ -14,11 +14,12 @@ Multi-modal data in Earth Observation (EO) presents a huge opportunity for impro
 ## Pre-trained Models
 
 ## Usage
-# Pre-training
-Code coming soon. Stay tuned ....
 
-# Fine-tuning
-Code coming soon. Stay tuned ....
+### Pre-training
+Code coming soon. Stay tuned ...
+
+### Fine-tuning
+Code coming soon. Stay tuned ...
 
 
 ## Acknowledgements
