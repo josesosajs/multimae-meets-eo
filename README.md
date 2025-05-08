@@ -11,15 +11,18 @@ Multi-modal data in Earth Observation (EO) presents a huge opportunity for impro
 
 <img width="1096" alt="image" src="images/main_arch.png">
 
-## Pre-training
+## Pre-trained Models
+
+## Usage
+# Pre-training
 Code coming soon. Stay tuned ....
 
-## Fine-tuning
+# Fine-tuning
 Code coming soon. Stay tuned ....
 
 
 ## Acknowledgements
-The codebase is inspired from the [MultiMAE](https://github.com/EPFL-VILAB/MultiMAE) repository. Our work uses [MMEarth](https://github.com/vishalned/MMEarth-data) dataset. We thank authors for making their amazing work accesible to the community. 
+The codebase is inspired by [MultiMAE](https://github.com/EPFL-VILAB/MultiMAE). Our work uses [MMEarth](https://github.com/vishalned/MMEarth-data) dataset. We thank authors for making their amazing work accesible to the community. 
 
 ## Citation
 ```
