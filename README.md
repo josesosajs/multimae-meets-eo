@@ -2,7 +2,7 @@
 
 
 ## Updates
-- **June 7th, 2025:** Code for pre-training our model is released.
+- **June 7th, 2025:** Code for pre-training our model released.
 - **May 22nd, 2025:** Pre-print available [arXiv](https://arxiv.org/pdf/2505.14951).
 - **May 20th, 2025:** Our paper has been acepted at [ICIP 2025](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php).
 
