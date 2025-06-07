@@ -14,10 +14,12 @@ Multi-modal data in Earth Observation (EO) presents a huge opportunity for impro
 <img width="1096" alt="image" src="images/main_arch.png">
 
 ## Set-up
+1. Clone this repo: `https://github.com/josesosajs/multimae-meets-eo.git`
+2. Create a conda environment from the configuration file: `environment_config.yml`
 
-### Pre-training
+## Pre-training
 
-#### Data Download
+### Data Download
 Our model is pre-trained with [MMEarth](https://github.com/vishalned/MMEarth-data) dataset. Follow the instructions in their [repo](https://github.com/vishalned/MMEarth-data/blob/main/README.md) to download the data.
 
 All their datasets have a similar structure: 
@@ -29,15 +31,15 @@ All their datasets have a similar structure:
     │   ├── data_1M_v001_splits.json       # json file containing information for train, val, test splits
     │   └── data_1M_v001_tile_info.json    # json file containing additional meta information of each tile that was downloaded. 
 
-#### Changing configuration
+### Changing configuration
 The pre-training script reads from a default configuration file located [here](cfgs/pretrain/). Change the configuration values on the file according to your needs. Alternatively, you can add the arguments direclty on the command to run pretraining.
 
 Update `file_path` variable [here](utils/data_constants.py), with the path to the file with the dataset stats, e.g. `data_1M_v001_band_stats.json` .
 
-#### Logs
+### Logs
 Our implementation includes support for logging pre-training metrics to [Weights & Biases](https://wandb.ai/site/). Make sure to set your wandb account on the config file, or deactivate this option using `--log_wandb False`.
 
-#### Start pre-training
+### Start pre-training
 Run the following command to pre-train our MultiMAE implementation with [multi-modal EO data](https://github.com/vishalned/MMEarth-data) on 4 gpus:
 
 ```bash
@@ -46,7 +48,7 @@ torchrun --nproc_per_node=4 run_pretraining.py \
 --data_path path_to_mmearth_data/data_1M_v001.h5
 ```
 
-### Fine-tuning
+## Fine-tuning
 Code coming soon. Stay tuned ...
 
 
