@@ -19,7 +19,7 @@ Multi-modal data in Earth Observation (EO) presents a huge opportunity for impro
 
 ## Pre-training
 
-### Data Download
+### Data
 Our model is pre-trained with [MMEarth](https://github.com/vishalned/MMEarth-data) dataset. Follow the instructions in their [repo](https://github.com/vishalned/MMEarth-data/blob/main/README.md) to download the data.
 
 All their datasets have a similar structure: 
