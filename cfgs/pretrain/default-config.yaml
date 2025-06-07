@@ -1,0 +1,41 @@
+# Input and output tasks
+in_domains: rgb-depth-semseg-ired-sired-ebands
+out_domains: rgb-depth-semseg-ired-sired-ebands
+standardize_depth: True
+extra_norm_pix_loss: True
+
+# Architecture
+model: pretrain_multimae_base
+decoder_dim: 128
+input_size: 56
+patch_size: 8
+alphas: 1.0  # Dirichlet concentration parameter
+num_encoded_tokens: 49 # Total would be 196 * 3 patches. 196 / 2 = 98 (1/6 of total)
+num_global_tokens: 1
+decoder_use_task_queries: True
+decoder_depth: 2
+
+# Train
+epochs: 1000
+opt: adamw
+blr: 0.0001 # this is base_lr = 1e-4, lr = base_lr * batch_size / 256
+warmup_lr: 0.000001 # 1e-6
+min_lr: 0.
+warmup_epochs: 1
+batch_size: 128
+hflip: 0.5
+loss_on_unmasked: False
+fp32_output_adapters: semseg
+clip_loss: False
+save_ckpt_freq: 100
+
+# Data
+data_path: 'data_1M_v001_64.h5' # Change me
+splits_path: 'data_1M_v001_64_splits.json' #Change me
+
+# Wandb logging
+log_wandb: True # Set to True to log to Weights & Biases
+wandb_project: '' # Change me
+wandb_entity: null # Change if needed
+wandb_run_name: '' # Change me
+output_dir: 'output/pretrain/' # Change me
