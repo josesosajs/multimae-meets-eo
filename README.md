@@ -32,12 +32,12 @@ All their datasets have a similar structure:
     │   └── data_1M_v001_tile_info.json    # json file containing additional meta information of each tile that was downloaded. 
 
 ### Changing configuration
-The pre-training script reads from a default configuration file located [here](cfgs/pretrain/). Change the configuration values on the file according to your needs. Alternatively, you can add the arguments direclty on the command to run pretraining.
+The pre-training script reads from a default configuration file located [here](cfgs/pretrain/). Change the configuration values on the file according to your needs. Alternatively, you can add the arguments directly on the command.
 
 Update `file_path` variable [here](utils/data_constants.py), with the path to the file with the dataset stats, e.g. `data_1M_v001_band_stats.json` .
 
 ### Logs
-Our implementation includes support for logging pre-training metrics to [Weights & Biases](https://wandb.ai/site/). Make sure to set your wandb account on the config file, or deactivate this option using `--log_wandb False`.
+Our implementation includes support for logging pre-training metrics to [Weights & Biases](https://wandb.ai/site/). Make sure to set your wandb account, then add the corresponding values to the config file, or deactivate this option using `--log_wandb False`.
 
 ### Start pre-training
 Run the following command to pre-train our MultiMAE implementation with [multi-modal EO data](https://github.com/vishalned/MMEarth-data) on 4 gpus:
