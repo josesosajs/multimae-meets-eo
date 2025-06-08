@@ -103,10 +103,10 @@ def get_args():
     parser.add_argument('--train_interpolation', type=str, default='bicubic', help='Training interpolation (random, bilinear, bicubic) (default: %(default)s)')
 
     # Dataset parameters
-    parser.add_argument('--data_path', default='data_1M_v001.h5', type=str, help='dataset path')
+    parser.add_argument('--data_path', default='data/data_1M_v001.h5', type=str, help='dataset path')
     parser.add_argument('--imagenet_default_mean_and_std', default=True, action='store_true')
-    parser.add_argument('--classes_def', default='biome_labels.json', type=str)
-    parser.add_argument('--splits_path', default='data_1M_v001_splits.json', type=str)
+    parser.add_argument('--classes_def', default='data/biome_labels.json', type=str)
+    parser.add_argument('--splits_path', default='data/data_1M_v001_splits.json', type=str)
 
     # Misc.
     parser.add_argument('--output_dir', default='', help='Path where to save, empty for no saving')
