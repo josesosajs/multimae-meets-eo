@@ -2,9 +2,9 @@
 
 
 ## Updates
-- **Jul 30th, 2025:** Video presentation available [video](https://youtu.be/SNQHKlrqSCQ).
+- **Jul 30th, 2025:** Video presentation [video](https://youtu.be/GR7iAT5u9P8).
 - **June 7th, 2025:** Code for pre-training our model released.
-- **May 22nd, 2025:** Pre-print available [arXiv](https://arxiv.org/pdf/2505.14951).
+- **May 22nd, 2025:** Pre-print [arXiv](https://arxiv.org/pdf/2505.14951).
 - **May 20th, 2025:** Our paper has been acepted at [ICIP 2025](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php).
 
 ## Overview
