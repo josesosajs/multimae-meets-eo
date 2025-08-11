@@ -3,7 +3,7 @@
 
 ## Updates
 - **Jul 30th, 2025:** Video presentation [video](https://youtu.be/GR7iAT5u9P8).
-- **June 7th, 2025:** Code and pre-trained weights for our model released [checkpoint](https://drive.google.com/file/d/1SpZyD7C5WxsDFC6vN8Y9zvOkxOva80Tu/view?usp=sharing).
+- **June 7th, 2025:** Code and pre-trained weights for our model released [checkpoint](https://github.com/josesosajs/multimae-meets-eo/releases/tag/v1.0.0).
 - **May 22nd, 2025:** Pre-print [arXiv](https://arxiv.org/pdf/2505.14951).
 - **May 20th, 2025:** Our paper has been acepted at [ICIP 2025](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php).
 
