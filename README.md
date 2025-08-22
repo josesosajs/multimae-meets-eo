@@ -2,6 +2,7 @@
 
 
 ## Updates
+- **Aug 22nd, 2025:** Conference proceedings [paper](https://ieeexplore.ieee.org/document/11084679)
 - **Jul 30th, 2025:** Video presentation [video](https://youtu.be/GR7iAT5u9P8).
 - **June 7th, 2025:** Code and pre-trained weights for our model released [checkpoint](https://github.com/josesosajs/multimae-meets-eo/releases/tag/v1.0.0).
 - **May 22nd, 2025:** Pre-print [arXiv](https://arxiv.org/pdf/2505.14951).
